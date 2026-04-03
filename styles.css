@@ -114,4 +114,8 @@ body {
   .home-link:hover {
     text-decoration: underline;
   }
+
+  .home-link:visited {
+    color: white;
+  }
 }
