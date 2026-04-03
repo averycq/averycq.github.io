@@ -105,4 +105,13 @@ body {
     align-items: center;
     gap: 10px;
   }
+
+  .home-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .home-link:hover {
+    text-decoration: underline;
+  }
 }
