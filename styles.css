@@ -43,5 +43,6 @@ body {
   .button-row {
     display: flex;
     gap: 15px;
+    justify-content: center;
   }
 }
