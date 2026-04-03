@@ -59,4 +59,9 @@ body {
     border-radius: 50%;
     object-fit: cover;
   }
+
+  .mirror {
+    display: inline-block;
+    transform: scaleX(-1);
+  }
 }
