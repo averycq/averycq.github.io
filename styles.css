@@ -1,12 +1,10 @@
-<style>
-  body {
-    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
-    background-color: black;
-    h1 {
-      color: white;
-    }
-    p {
-      color: white;
-    }
+body {
+  font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+  background-color: black;
+  h1 {
+    color: white;
   }
-</style>
+  p {
+    color: white;
+  }
+}
