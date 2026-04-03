@@ -1,4 +1,5 @@
 body {
+  
   font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
   text-align: center;
   text-align: center;
@@ -6,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
   #bg-video {
   position: fixed;
   top: 0;
@@ -15,11 +17,31 @@ body {
   object-fit: cover;
   z-index: -1;
   }
+  
   background-color: black;
+  
   h1 {
     color: white;
   }
   p {
     color: white;
+  }
+
+  .outline-btn {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .outline-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .button-row {
+    display: flex;
+    gap: 15px;
   }
 }
