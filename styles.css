@@ -79,4 +79,30 @@ body {
     display: inline-block;
     transform: scaleX(-1);
   }
+
+  label {
+    color: white;
+  }
+
+  input, textarea {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+  }
+
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }
